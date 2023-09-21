@@ -2,7 +2,7 @@
 Console.WriteLine("Используя константы,напишите программу для перевода миллиметров в:A)сантиметры B)метры C)километры D)миля E)ярды");
 
 //A
-миллиметры в сантиметры
+//миллиметры в сантиметры
 const float sm = 0.01f;
 Console.Write("Введите миллиметры:");
 double mm = double.Parse(Console.ReadLine());
@@ -39,3 +39,5 @@ Console.Write("Введите миллиметры:");
 double mm = double.Parse(Console.ReadLine());
 double res = yard * mm;
 Console.WriteLine($"{mm} миллиметров {res:F3} ярдов");
+
+/
