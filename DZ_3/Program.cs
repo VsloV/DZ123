@@ -4,7 +4,7 @@
 uint Petya = 10;
 Console.WriteLine($"Петря взял {Petya} книг");
 uint Alesha = Petya - 4;
-Console.WriteLine($"Алеша взял {Alesha} книг");
+Console.WriteLine($"Алёша взял {Alesha} книг");
 uint Vanya = Alesha + 2;
 Console.WriteLine($"Ваня взял {Vanya} книг");
 Console.WriteLine($"Дети взяли {Petya + Alesha + Vanya} стольк книг:");
