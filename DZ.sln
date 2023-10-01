@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DZ_4", "DZ_4\DZ_4.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson2 topic2", "Lesson2 topic2\Lesson2 topic2.csproj", "{0D9C1DE9-8B20-4CE1-AD94-9B151614AF08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topic7 lesson1-2", "Topic7 lesson1-2\Topic7 lesson1-2.csproj", "{E4C6DF75-F67C-4C45-8F19-148138783A24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topic7 lesson1-2", "Topic7 lesson1-2\Topic7 lesson1-2.csproj", "{E4C6DF75-F67C-4C45-8F19-148138783A24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topic3 lesson2", "Topic3 lesson2\Topic3 lesson2.csproj", "{D6888F41-4FFC-4805-B306-336B554F8FBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topic3 lesson2", "Topic3 lesson2\Topic3 lesson2.csproj", "{D6888F41-4FFC-4805-B306-336B554F8FBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cheque", "Cheque\Cheque.csproj", "{99EF732A-D8A2-44BB-AD12-18257588BEF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{D6888F41-4FFC-4805-B306-336B554F8FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6888F41-4FFC-4805-B306-336B554F8FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6888F41-4FFC-4805-B306-336B554F8FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99EF732A-D8A2-44BB-AD12-18257588BEF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99EF732A-D8A2-44BB-AD12-18257588BEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99EF732A-D8A2-44BB-AD12-18257588BEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99EF732A-D8A2-44BB-AD12-18257588BEF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
