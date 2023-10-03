@@ -4,23 +4,23 @@
 
 const double Pi = Math.PI;
 Console.WriteLine("Какой радиус окружности:");
-double Circle = double.Parse(Console.ReadLine());
-double Square = Pi * Circle * Circle;
-Console.WriteLine($"Площадь круга равна:{Square:F4}");
+double circle = double.Parse(Console.ReadLine());
+double square = Pi * circle * circle;
+Console.WriteLine($"Площадь круга равна:{square:F4}");
 
 //2
 
 Console.Write("Введите ваши ФИО: ");
-string Name = Console.ReadLine();
+string name = Console.ReadLine();
 Console.Write("Ведите ваш пол:");
-string Paul = Console.ReadLine();
+string paul = Console.ReadLine();
 Console.Write("Ведите ваш возраст:");
-int Age = int.Parse(Console.ReadLine());
+int age = int.Parse(Console.ReadLine());
 Console.Write("Введите ваш город:");
-string City = Console.ReadLine();
+string city = Console.ReadLine();
 
-Console.WriteLine($"Имя:{Name}");
-Console.WriteLine($"Пол:{Paul}");
-Console.WriteLine($"Возраст:{Age}");
-Console.WriteLine($"Город:{City}");
+Console.WriteLine($"Имя:{name}");
+Console.WriteLine($"Пол:{paul}");
+Console.WriteLine($"Возраст:{age}");
+Console.WriteLine($"Город:{city}");
 

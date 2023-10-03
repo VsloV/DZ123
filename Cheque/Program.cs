@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-  
+
 const decimal sneakersPrice = 1000.00m;
 const decimal jacketsPrice = 800.00m;
 const decimal pantsPrice = 400.00m;
@@ -13,7 +13,7 @@ const decimal shirtsPrice = 600.00m;
 Console.Write("Укажите количество средств: ");
 decimal balance = decimal.Parse(Console.ReadLine());
 
-Console.Write("1. Кроссовки - {0}\n2. Куртки - {1}\n3. Штаны - {2}\n4. Шапки - {3}\n5. Перчатки - {4}\n6. Рубашки - {5}\n" , sneakersPrice, jacketsPrice, pantsPrice, heatsPrice, glovesPrice, shirtsPrice);
+Console.Write("1. Кроссовки - {0}\n2. Куртки - {1}\n3. Штаны - {2}\n4. Шапки - {3}\n5. Перчатки - {4}\n6. Рубашки - {5}\n", sneakersPrice, jacketsPrice, pantsPrice, heatsPrice, glovesPrice, shirtsPrice);
 
 //Кроссовки
 Console.Write("Укажите количество кроссовок: ");
@@ -64,7 +64,7 @@ counter++;
 Console.WriteLine($"{counter}.\tКроссовки\t{sneakersQuantity}\t{sneakersPrice}\t{sneakersTotalPrice}");
 counter++;
 Console.WriteLine($"{counter}.\tКуртки   \t{jacketsQuantity}\t{jacketsPrice}\t{jacketsTotalPrice}");
- counter++;
+counter++;
 Console.WriteLine($"{counter}.\tШтаны    \t{pantsQuantity}\t{pantsPrice}\t{pantsTotalPrice}");
 counter++;
 Console.WriteLine($"{counter}.\tШапки    \t{heatsQuantity}\t{heatsPrice}\t{heatsTotalPrice}");
