@@ -2,10 +2,10 @@
 
 //1
 
-const double Pi = Math.PI;
+const double pi = Math.PI;
 Console.WriteLine("Какой радиус окружности:");
 double circle = double.Parse(Console.ReadLine());
-double square = Pi * circle * circle;
+double square = pi * circle * circle;
 Console.WriteLine($"Площадь круга равна:{square:F4}");
 
 //2

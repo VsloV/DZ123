@@ -73,3 +73,4 @@ Console.WriteLine($"{counter}.\tПерчатки \t{glovesQuantity}\t{glovesPric
 counter++;
 Console.WriteLine($"{counter}.\tРубашки \t{shirtsQuantity}\t{shirtsPrice}\t{shirtsTotalPrice}");
 Console.WriteLine($"\t\t\t\tИтого: {totalPrice}");
+
