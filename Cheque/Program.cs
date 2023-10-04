@@ -1,11 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 
-const decimal sneakersPrice = 1000.00m;
-const decimal jacketsPrice = 800.00m;
-const decimal pantsPrice = 400.00m;
-const decimal heatsPrice = 200.00m;
-const decimal glovesPrice = 150.00m;
+const decimal sneakersPrice = 1800.00m;
+const decimal jacketsPrice = 1200.00m;
+const decimal pantsPrice = 700.00m;
+const decimal heatsPrice = 4000.00m;
+const decimal glovesPrice = 350.00m;
 const decimal shirtsPrice = 600.00m;
 
 
@@ -57,9 +57,9 @@ decimal shirtsTotalPrice = shirtsQuantity * shirtsPrice;
 balance -= heatsTotalPrice;
 Console.WriteLine($"В корзину добавлено {shirtsQuantity} рубашок, на сумму {shirtsTotalPrice}\nТекущий баланс: {balance}");
 
-decimal totalPrice = sneakersTotalPrice + jacketsTotalPrice + pantsTotalPrice + heatsTotalPrice;
+decimal totalPrice = sneakersTotalPrice + jacketsTotalPrice + pantsTotalPrice + heatsTotalPrice+ glovesTotalPrice+ shirtsTotalPrice;
 int counter = 0;
-Console.WriteLine("\tOOO \"Крутые Бобры\"\t\n************************************\n№\tНаименование\tКол-во\tЦена\tСумма");
+Console.WriteLine("\tOOO \"Крутые Бобры\"\t\n************************************\n№\tНазвание:\tКол-во:\tЦена:\tСумма:");
 counter++;
 Console.WriteLine($"{counter}.\tКроссовки\t{sneakersQuantity}\t{sneakersPrice}\t{sneakersTotalPrice}");
 counter++;
